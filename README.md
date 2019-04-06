@@ -1,7 +1,7 @@
 # Log-Parser
 **A modular log parser that parses apache logs and stores processed logs as CSV.**
 
-This code generatea host sessions from raw log and assign session id to every line in the log. <br />
+This code generates host sessions from raw log and assign session id to every line in the log. <br />
 Definition of session: Session is window of activity from a host. A session ends when there is at least 15 mins of inactivity.
  
 **Input raw log schema:**<br />
