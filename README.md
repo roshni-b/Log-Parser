@@ -19,3 +19,16 @@ nasa_19950731.22-19950831.22.tsv.gz
 
 **Pre-processing**<br />
 Some of the host names have commas - these have been replaced by dots. This ensures that while reading the .csv file, the part of the host name that comes after the comma does not get read as log name instead (which is the next column), consequently all the other attributes in the same log entry are prevented from bring misread. <br />
+
+## Usage: <br />
+
+##### 1. Cloning the repository.
+```
+git clone https://github.com/roshni-b/Log-Parser.git
+cd Log-Parser
+```
+
+##### 2. Running the script
+```
+python LogParser.py
+```
