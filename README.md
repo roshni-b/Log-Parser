@@ -27,8 +27,12 @@ Some of the host names have commas - these have been replaced by dots. This ensu
 git clone https://github.com/roshni-b/Log-Parser.git
 cd Log-Parser
 ```
-
-##### 2. Running the script
+##### 2. Decompressing log files.
+```
+gunzip nasa_19950630.22-19950728.12.tsv.gz
+gunzip nasa_19950731.22-19950831.22.tsv.gz
+```
+##### 3. Running the script.
 ```
 python LogParser.py
 ```
