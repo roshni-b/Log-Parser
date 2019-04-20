@@ -32,7 +32,7 @@ cd Log-Parser
 gunzip nasa_19950630.22-19950728.12.tsv.gz
 gunzip nasa_19950731.22-19950831.22.tsv.gz
 ```
-##### 3. Running the [script] (LogParser.py).
+##### 3. Running the [script](https://github.com/roshni-b/Log-Parser/blob/master/LogParser.py).
 ```
 python LogParser.py
 ```
